@@ -6,10 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/nhnacademy-be12-4vidia/config-repo.git
-          default-label: main
-          username: ${GH_OWNER}
-          password: ${GH_TOKEN}
+          uri: git@github.com:nhnacademy-be12-4vidia/config-repo.git
+          private-key: ${SSH_PRIVATE_KEY}
+
 
   security:
     user:
