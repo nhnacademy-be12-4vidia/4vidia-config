@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/nhnacademy-be12-4vidia/config-repo.git
           default-label: main
           username: baejongto
-          password: ${GITHUB_TOKEN}
+          password: ${CONFIG_TOKEN}
 
   security:
     user:
