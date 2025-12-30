@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: 4vidia-config
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nhnacademy-be12-4vidia/config-repo.git
+          default-label: main
+          username: baejongto
+          password: ${GITHUB_TOKEN}
+
+  security:
+    user:
+      name: ${ADMIN_ID}
+      password: ${ADMIN_PASSWORD}
+
+server:
+  port: 8080
+
