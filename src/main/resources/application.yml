@@ -10,6 +10,7 @@ spring:
           default-label: main
           username: baejongto
           password: ${CONFIG_TOKEN}
+          search-paths: "{application}"
 
   security:
     user:
